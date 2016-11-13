@@ -12,7 +12,7 @@ $Nightlife = $_GET['Nightlife'];
 $Region = $_GET['Region'];
 $data_decoded = null;
 //Have All the parameters , now call nomdalist
-$curl = curl_init();
+
 
 function findCityNamesFromSkyScanner($citycode){
 header('Content-type: application/json');
