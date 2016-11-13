@@ -83,40 +83,23 @@ function getPricefromSkyScanner($origin,$destination){
     getThePrice($headerskyscanner,"?apiKey=prtl6749387986743898559646983194");
 }
 
-curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://nomadlist.com/api/v2/filter/city?c=5&f1_target=temperatureC&f1_type=lt&f1_max=20&f2_target=internet_speed&f2_type=gt&f2_min=15&f3_target=safety_level&f3_type=gt&f3_min=3&f4_target=air_quality&f4_type=lt&f4_max=50&f5_target=region&f5_type=em&f5_value=Europe&s=nomad_score&o=desc",
-  CURLOPT_RETURNTRANSFER => true,
-  CURLOPT_ENCODING => "",
-  CURLOPT_MAXREDIRS => 10,
-  CURLOPT_TIMEOUT => 30,
-  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-  CURLOPT_CUSTOMREQUEST => "GET",
-  CURLOPT_HTTPHEADER => array(
-    "cache-control: no-cache",
-    "postman-token: 0156a06f-4628-42e9-50a0-f6647a3ebbc1"
-  ),
-));
 
-
-$response = curl_exec($curl);
-$err = curl_error($curl);
-
-curl_close($curl);
-
-if ($err) {
-  echo "cURL Error #:" . $err;
-} else {
+function getNomadList(){
+  $url = "https://nomadlist.com/api/v2/filter/city?c=1&f1_target=temperatureC&f1_type=lt&f1_max=20&s=nomad_score&o=desc";
+  $headers = array('Accept' => 'application/json');
+  $response = Unirest\Request::post($getPriceSkyEndPoint, $headers);
+  print_r($response);
   $data_decoded = json_decode($response);
-  
-  
 }
 
+
+getNomadList();
 $nomadlistCityNames = array();
 $sky_code = array();
 //stored all skycode here ^^
 
 for($i=0;$i<10;$i++){
-    //echo $data_decoded->slugs[$i]."------";
+  //echo $data_decoded->slugs[$i]."------";
    array_push($nomadlistCityNames,$data_decoded->slugs[$i]);
     $res = findCityNamesFromSkyScanner($data_decoded->slugs[$i]);
     $res =  json_decode($res);
@@ -130,14 +113,6 @@ for($i=0;$i<10;$i++){
     getPricefromSkyScanner("LHR-Sky",$skyplaceid);
     
 }
-
-
-
-
-//getPricefromSkyScanner("Bangalore","London");
-//echo json_encode($sky_code)
-
-
 
 
 echo json_encode($finalResult);
