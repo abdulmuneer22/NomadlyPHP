@@ -60,7 +60,7 @@ function getPricefromSkyScanner($origin,$destination){
   
   $getPriceSkyEndPoint = "http://partners.api.skyscanner.net/apiservices/pricing/v1.0";
   $headers = array('Accept' => 'application/json','Content-Type'=>'application/x-www-form-urlencoded');
-  $body = Unirest\Request\Body::form($data);
+  
   $data = array(
     'apiKey' => 'prtl6749387986743898559646983194',
     'country' => 'US',

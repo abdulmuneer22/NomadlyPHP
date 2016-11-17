@@ -1,0 +1,68 @@
+URL For Nomadly=>https://nomadlist.com/api/v2/filter/city?c=0&s=nomad_score&o=desc
+Date To Visit=>2017-05-27
+Origin=>LOND-sky
+Budget=>
+URL For Nomadly=>https://nomadlist.com/api/v2/filter/city?c=2f1_target=nightlife&f1_type=gt&f1_min=3&f2_target=female_friendly&f2_type=gt&f2_min=3&s=nomad_score&o=desc
+Date To Visit=>2017-03-27
+Origin=>LOND-sky
+Budget=>1000
+URL For Nomadly=>https://nomadlist.com/api/v2/filter/city?c=2&f1_target=tags&f1_type=pm&f1_value=beach&f2_target=english_speaking&f2_type=gt&f2_min=3&s=nomad_score&o=desc
+Date To Visit=>2017-02-27
+Origin=>LOND-sky
+Budget=>1000
+URL For Nomadly=>https://nomadlist.com/api/v2/filter/city?c=2f1_target=nightlife&f1_type=gt&f1_min=3&f2_target=female_friendly&f2_type=gt&f2_min=3&s=nomad_score&o=desc
+Date To Visit=>2017-01-27
+Origin=>CAI-sky
+Budget=>1000
+URL For Nomadly=>https://nomadlist.com/api/v2/filter/city?c=2&f1_target=tags&f1_type=pm&f1_value=snow&f2_target=english_speaking&f2_type=gt&f2_min=3&s=nomad_score&o=desc
+Date To Visit=>2017-03-27
+Origin=>CAI-sky
+Budget=>1000
+URL For Nomadly=>https://nomadlist.com/api/v2/filter/city?c=2&f1_target=tags&f1_type=pm&f1_value=beach&f2_target=female_friendly&f2_type=gt&f2_min=3&s=nomad_score&o=desc
+Date To Visit=>2017-03-27
+Origin=>LOND-sky
+Budget=>1000
+URL For Nomadly=>https://nomadlist.com/api/v2/filter/city?c=2f1_target=nightlife&f1_type=gt&f1_min=3&f2_target=schengen&f2_type=em&f2_value=no&s=nomad_score&o=desc
+Date To Visit=>2017-03-27
+Origin=>CAI-sky
+Budget=>1000
+URL For Nomadly=>https://nomadlist.com/api/v2/filter/city?c=2&f1_target=tags&f1_type=pm&f1_value=snow&f2_target=schengen&f2_type=em&f2_value=no&s=nomad_score&o=desc
+Date To Visit=>2017-03-27
+Origin=>CAI-sky
+Budget=>500
+URL For Nomadly=>https://nomadlist.com/api/v2/filter/city?c=2&f1_target=tags&f1_type=pm&f1_value=beach&f2_target=english_speaking&f2_type=gt&f2_min=3&s=nomad_score&o=desc
+Date To Visit=>2017-01-27
+Origin=>CAI-sky
+Budget=>1000
+URL For Nomadly=>https://nomadlist.com/api/v2/filter/city?c=2&f1_target=tags&f1_type=pm&f1_value=snow&f2_target=schengen&f2_type=em&f2_value=no&s=nomad_score&o=desc
+Date To Visit=>2017-03-27
+Origin=>LOND-sky
+Budget=>500
+URL For Nomadly=>https://nomadlist.com/api/v2/filter/city?c=2&f1_target=tags&f1_type=pm&f1_value=beach&f2_target=schengen&f2_type=em&f2_value=no&s=nomad_score&o=desc
+Date To Visit=>2017-02-27
+Origin=>LOND-sky
+Budget=>500
+URL For Nomadly=>https://nomadlist.com/api/v2/filter/city?c=2&f1_target=tags&f1_type=pm&f1_value=snow&f2_target=schengen&f2_type=em&f2_value=no&s=nomad_score&o=desc
+Date To Visit=>2017-03-27
+Origin=>CAI-sky
+Budget=>1000
+URL For Nomadly=>https://nomadlist.com/api/v2/filter/city?c=2&f1_target=tags&f1_type=pm&f1_value=snow&f2_target=schengen&f2_type=em&f2_value=no&s=nomad_score&o=desc
+Date To Visit=>2017-04-27
+Origin=>BLR-sky
+Budget=>500
+URL For Nomadly=>https://nomadlist.com/api/v2/filter/city?c=2&f1_target=tags&f1_type=pm&f1_value=beach&f2_target=english_speaking&f2_type=gt&f2_min=3&s=nomad_score&o=desc
+Date To Visit=>2017-03-27
+Origin=>LOND-sky
+Budget=>1000
+URL For Nomadly=>https://nomadlist.com/api/v2/filter/city?c=2&f1_target=tags&f1_type=pm&f1_value=beach&f2_target=english_speaking&f2_type=gt&f2_min=3&s=nomad_score&o=desc
+Date To Visit=>2017-02-27
+Origin=>LOND-sky
+Budget=>1000
+URL For Nomadly=>https://nomadlist.com/api/v2/filter/city?c=2&f1_target=tags&f1_type=pm&f1_value=snow&f2_target=schengen&f2_type=em&f2_value=no&s=nomad_score&o=desc
+Date To Visit=>2017-04-27
+Origin=>CAI-sky
+Budget=>1000
+URL For Nomadly=>https://nomadlist.com/api/v2/filter/city?c=2&f1_target=tags&f1_type=pm&f1_value=beach&f2_target=female_friendly&f2_type=gt&f2_min=3&s=nomad_score&o=desc
+Date To Visit=>2017-01-27
+Origin=>SIN-sky
+Budget=>500

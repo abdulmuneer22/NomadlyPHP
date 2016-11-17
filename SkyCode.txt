@@ -1,0 +1,125 @@
+Started The Function getSKYCODE
+
+Place-Name => MIAA-sky	Country=>US-sky
+Place-Name => SCL-sky	Country=>CL-sky
+Place-Name => HKT-sky	Country=>TH-sky
+Place-Name => PER-sky	Country=>AU-sky
+Place-Name => TPA-sky	Country=>US-sky
+Place-Name => HKG-sky	Country=>CN-sky
+Place-Name => FLL-sky	Country=>US-sky
+Place-Name => PHLA-sky	Country=>US-sky
+Place-Name => VLC-sky	Country=>ES-sky
+Place-Name => LIS-sky	Country=>PT-sky
+Place-Name => CNS-sky	Country=>AU-sky
+Place-Name => LUV-sky	Country=>ID-sky
+Place-Name => BNE-sky	Country=>AU-sky
+Place-Name => PYC-sky	Country=>PA-skyStarted The Function getSKYCODE
+
+Place-Name => PDX-sky	Country=>US-sky
+Place-Name => SEAA-sky	Country=>US-sky
+Place-Name => DEN-sky	Country=>US-sky
+Place-Name => BLD-sky	Country=>US-sky
+Place-Name => SOF-sky	Country=>BG-sky
+Place-Name => SCL-sky	Country=>CL-sky
+Place-Name => BOS-sky	Country=>US-sky
+Place-Name => SJJ-sky	Country=>BA-sky
+Place-Name => PKB-sky	Country=>US-sky
+Place-Name => AYT-sky	Country=>TR-sky
+Place-Name => SVX-sky	Country=>RU-skyStarted The Function getSKYCODE
+Started The Function getSKYCODE
+
+Place-Name => TPET-sky	Country=>TW-sky
+Place-Name => MIAA-sky	Country=>US-sky
+Place-Name => SCL-sky	Country=>CL-sky
+Place-Name => HKT-sky	Country=>TH-sky
+Place-Name => KO-sky	Country=>KO-sky
+Place-Name => PER-sky	Country=>AU-sky
+Place-Name => TPA-sky	Country=>US-sky
+Place-Name => HKG-sky	Country=>CN-sky
+Place-Name => FLL-sky	Country=>US-sky
+Place-Name => SAOA-sky	Country=>BR-sky
+Place-Name => PHLA-sky	Country=>US-sky
+Place-Name => CNS-sky	Country=>AU-sky
+Place-Name => LUV-sky	Country=>ID-sky
+Place-Name => PTYA-sky	Country=>PA-skyStarted The Function getSKYCODE
+
+Place-Name => PDX-sky	Country=>US-sky
+Place-Name => SEAA-sky	Country=>US-sky
+Place-Name => DEN-sky	Country=>US-sky
+Place-Name => BLD-sky	Country=>US-sky
+Place-Name => SOF-sky	Country=>BG-sky
+Place-Name => SCL-sky	Country=>CL-sky
+Place-Name => BOS-sky	Country=>US-sky
+Place-Name => SJJ-sky	Country=>BA-sky
+Place-Name => PKB-sky	Country=>US-sky
+Place-Name => AYT-sky	Country=>TR-sky
+Place-Name => SVX-sky	Country=>RU-skyStarted The Function getSKYCODE
+
+Place-Name => PDX-sky	Country=>US-sky
+Place-Name => SEAA-sky	Country=>US-sky
+Place-Name => DEN-sky	Country=>US-sky
+Place-Name => BLD-sky	Country=>US-sky
+Place-Name => SOF-sky	Country=>BG-sky
+Place-Name => SCL-sky	Country=>CL-sky
+Place-Name => BOS-sky	Country=>US-sky
+Place-Name => SJJ-sky	Country=>BA-sky
+Place-Name => PKB-sky	Country=>US-sky
+Place-Name => AYT-sky	Country=>TR-sky
+Place-Name => SVX-sky	Country=>RU-skyStarted The Function getSKYCODE
+
+Place-Name => MIAA-sky	Country=>US-sky
+Place-Name => SCL-sky	Country=>CL-sky
+Place-Name => HKT-sky	Country=>TH-sky
+Place-Name => PER-sky	Country=>AU-sky
+Place-Name => TPA-sky	Country=>US-sky
+Place-Name => HKG-sky	Country=>CN-sky
+Place-Name => FLL-sky	Country=>US-sky
+Place-Name => PHLA-sky	Country=>US-sky
+Place-Name => VLC-sky	Country=>ES-sky
+Place-Name => LIS-sky	Country=>PT-sky
+Place-Name => CNS-sky	Country=>AU-sky
+Place-Name => LUV-sky	Country=>ID-sky
+Place-Name => BNE-sky	Country=>AU-sky
+Place-Name => PYC-sky	Country=>PA-skyStarted The Function getSKYCODE
+
+Place-Name => MIAA-sky	Country=>US-sky
+Place-Name => SCL-sky	Country=>CL-sky
+Place-Name => HKT-sky	Country=>TH-sky
+Place-Name => PER-sky	Country=>AU-sky
+Place-Name => TPA-sky	Country=>US-sky
+Place-Name => HKG-sky	Country=>CN-sky
+Place-Name => FLL-sky	Country=>US-sky
+Place-Name => PHLA-sky	Country=>US-sky
+Place-Name => VLC-sky	Country=>ES-sky
+Place-Name => LIS-sky	Country=>PT-sky
+Place-Name => CNS-sky	Country=>AU-sky
+Place-Name => LUV-sky	Country=>ID-sky
+Place-Name => BNE-sky	Country=>AU-sky
+Place-Name => PYC-sky	Country=>PA-skyStarted The Function getSKYCODE
+
+Place-Name => PDX-sky	Country=>US-sky
+Place-Name => SEAA-sky	Country=>US-sky
+Place-Name => DEN-sky	Country=>US-sky
+Place-Name => BLD-sky	Country=>US-sky
+Place-Name => SOF-sky	Country=>BG-sky
+Place-Name => SCL-sky	Country=>CL-sky
+Place-Name => BOS-sky	Country=>US-sky
+Place-Name => SJJ-sky	Country=>BA-sky
+Place-Name => PKB-sky	Country=>US-sky
+Place-Name => AYT-sky	Country=>TR-sky
+Place-Name => SVX-sky	Country=>RU-skyStarted The Function getSKYCODE
+
+Place-Name => TPET-sky	Country=>TW-sky
+Place-Name => MIAA-sky	Country=>US-sky
+Place-Name => LAS-sky	Country=>US-sky
+Place-Name => SCL-sky	Country=>CL-sky
+Place-Name => HKT-sky	Country=>TH-sky
+Place-Name => KO-sky	Country=>KO-sky
+Place-Name => PER-sky	Country=>AU-sky
+Place-Name => TPA-sky	Country=>US-sky
+Place-Name => HKG-sky	Country=>CN-sky
+Place-Name => FLL-sky	Country=>US-sky
+Place-Name => PHLA-sky	Country=>US-sky
+Place-Name => VLC-sky	Country=>ES-sky
+Place-Name => LIS-sky	Country=>PT-sky
+Place-Name => CNS-sky	Country=>AU-sky
