@@ -1,0 +1,23 @@
+Started Calculate Price
+
+Taipei=>384.793831922
+ImageURL=>https://nomadlist.com/assets/img/cities/taipei-taiwan-500px.jpg
+
+Miami=>360.1
+ImageURL=>https://nomadlist.com/assets/img/cities/miami-fl-united-states-500px.jpg
+
+Santiago Arturo Merino Benitez=>679.22713981579
+ImageURL=>https://nomadlist.com/assets/img/cities/san-diego-ca-united-states-500px.jpg
+Started Calculate Price
+
+Taipei=>392.90200345601
+ImageURL=>https://nomadlist.com/assets/img/cities/taipei-taiwan-500px.jpg
+
+Austin-Bergstrom=>512.61
+ImageURL=>https://nomadlist.com/assets/img/cities/austin-tx-united-states-500px.jpg
+
+Atlanta Hartsfield-Jackson=>507.89420619588
+ImageURL=>https://nomadlist.com/assets/img/cities/atlanta-ga-united-states-500px.jpg
+
+Portland=>599.72
+ImageURL=>https://nomadlist.com/assets/img/cities/portland-or-united-states-500px.jpg
