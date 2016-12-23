@@ -1,0 +1,116 @@
+{
+"messages": [
+{
+"attachment": {
+"type": "template",
+"payload": {
+"template_type": "generic",
+"elements": [
+{
+"title": "Taipei",
+"image_url": "https://nomadlist.com/assets/img/cities/taipei-taiwan-500px.jpg",
+"subtitle": "A Great Place To Visit",
+"buttons": [
+{
+"type": "web_url",
+"url": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=jzj5DawL5zJyT%2bnfeP9GJWfImnVvZd7vh0AJSObmdOp8YP07VbGmhzc%2bVTc80nUp&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fTW%2fen-us%2fUSD%2fpetw%2f1%2f13554.17075.2017-02-27%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31964%7c721%7c13554%7c2017-02-27T22%3a00%7c14213%7c2017-02-28T19%3a45%3bflight%7c-31964%7c896%7c14213%7c2017-03-01T07%3a15%7c17075%7c2017-03-01T09%3a30%26carriers%3d-31964%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d476.62%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3d16801ffe-8acd-4c53-96f9-d7157478e2fc%26deeplink_ids%3dap-northeast-1.prod_261573e57296b8279eba6ad2da996173%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-12-11T17%3a36%3a41",
+"title": 477
+},
+{
+"type": "web_url",
+"url": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=jzj5DawL5zJyT%2bnfeP9GJWfImnVvZd7vh0AJSObmdOp8YP07VbGmhzc%2bVTc80nUp&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fTW%2fen-us%2fUSD%2fpetw%2f1%2f13554.17075.2017-02-27%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31964%7c721%7c13554%7c2017-02-27T22%3a00%7c14213%7c2017-02-28T19%3a45%3bflight%7c-31964%7c896%7c14213%7c2017-03-01T07%3a15%7c17075%7c2017-03-01T09%3a30%26carriers%3d-31964%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d476.62%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3d16801ffe-8acd-4c53-96f9-d7157478e2fc%26deeplink_ids%3dap-northeast-1.prod_261573e57296b8279eba6ad2da996173%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-12-11T17%3a36%3a41",
+"title": "Book Now"
+}
+]
+},
+{
+"title": "Miami",
+"image_url": "https://nomadlist.com/assets/img/cities/miami-fl-united-states-500px.jpg",
+"subtitle": "A Great Place To Visit",
+"buttons": [
+{
+"type": "web_url",
+"url": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=jzj5DawL5zJyT%2bnfeP9GJWfImnVvZd7vh0AJSObmdOp8YP07VbGmhzc%2bVTc80nUp&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fUS%2fen-us%2fUSD%2ftpus%2f1%2f13554.14074.2017-02-27%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31781%7c353%7c13554%7c2017-02-27T06%3a00%7c13577%7c2017-02-27T08%3a35%3bflight%7c-31781%7c229%7c13577%7c2017-02-27T11%3a00%7c14074%7c2017-02-27T15%3a30%26carriers%3d-31781%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d324.99%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3dc9dcea02-ce2e-41c0-b0da-df8aaff6e1cc%26deeplink_ids%3dap-northeast-1.prod_777cec52b849198986f29c68123e8d54%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-12-11T17%3a36%3a41",
+"title": 325
+},
+{
+"type": "web_url",
+"url": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=jzj5DawL5zJyT%2bnfeP9GJWfImnVvZd7vh0AJSObmdOp8YP07VbGmhzc%2bVTc80nUp&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fUS%2fen-us%2fUSD%2ftpus%2f1%2f13554.14074.2017-02-27%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31781%7c353%7c13554%7c2017-02-27T06%3a00%7c13577%7c2017-02-27T08%3a35%3bflight%7c-31781%7c229%7c13577%7c2017-02-27T11%3a00%7c14074%7c2017-02-27T15%3a30%26carriers%3d-31781%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d324.99%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3dc9dcea02-ce2e-41c0-b0da-df8aaff6e1cc%26deeplink_ids%3dap-northeast-1.prod_777cec52b849198986f29c68123e8d54%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-12-11T17%3a36%3a41",
+"title": "Book Now"
+}
+]
+},
+{
+"title": "Dumatubin - Langgur",
+"image_url": "https://nomadlist.com/assets/img/cities/canggu-bali-indonesia-500px.jpg",
+"subtitle": "A Great Place To Visit",
+"buttons": [
+{
+"type": "web_url",
+"url": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=jzj5DawL5zJyT%2bnfeP9GJWfImnVvZd7vh0AJSObmdOp8YP07VbGmhzc%2bVTc80nUp&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fID%2fen-us%2fUSD%2fbfid%2f1%2f13554.13803.2017-02-27%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32283%7c9237%7c13554%7c2017-02-27T11%3a45%7c9451%7c2017-02-27T14%3a05%3bflight%7c-32283%7c89%7c9451%7c2017-02-27T15%3a45%7c10485%7c2017-02-28T11%3a05%3bflight%7c-32283%7c640%7c10485%7c2017-02-28T23%3a45%7c17368%7c2017-03-01T03%3a15%3bflight%7c-32283%7c640%7c17368%7c2017-03-01T04%3a00%7c9449%7c2017-03-01T06%3a50%3bflight%7c-32283%7c7646%7c9449%7c2017-03-01T15%3a55%7c13803%7c2017-03-01T17%3a20%26carriers%3d-32283%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d866.17%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3dade67167-459d-40c7-8f58-78adbb864ac0%26deeplink_ids%3dap-northeast-1.prod_93ee2a24b981f60a68e30f9b86424769%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-12-11T17%3a36%3a42",
+"title": 867
+},
+{
+"type": "web_url",
+"url": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=jzj5DawL5zJyT%2bnfeP9GJWfImnVvZd7vh0AJSObmdOp8YP07VbGmhzc%2bVTc80nUp&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fID%2fen-us%2fUSD%2fbfid%2f1%2f13554.13803.2017-02-27%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32283%7c9237%7c13554%7c2017-02-27T11%3a45%7c9451%7c2017-02-27T14%3a05%3bflight%7c-32283%7c89%7c9451%7c2017-02-27T15%3a45%7c10485%7c2017-02-28T11%3a05%3bflight%7c-32283%7c640%7c10485%7c2017-02-28T23%3a45%7c17368%7c2017-03-01T03%3a15%3bflight%7c-32283%7c640%7c17368%7c2017-03-01T04%3a00%7c9449%7c2017-03-01T06%3a50%3bflight%7c-32283%7c7646%7c9449%7c2017-03-01T15%3a55%7c13803%7c2017-03-01T17%3a20%26carriers%3d-32283%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d866.17%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3dade67167-459d-40c7-8f58-78adbb864ac0%26deeplink_ids%3dap-northeast-1.prod_93ee2a24b981f60a68e30f9b86424769%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-12-11T17%3a36%3a42",
+"title": "Book Now"
+}
+]
+},
+{
+"title": "Phuket",
+"image_url": "https://nomadlist.com/assets/img/cities/phuket-thailand-500px.jpg",
+"subtitle": "A Great Place To Visit",
+"buttons": [
+{
+"type": "web_url",
+"url": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=jzj5DawL5zJyT%2bnfeP9GJWfImnVvZd7vh0AJSObmdOp8YP07VbGmhzc%2bVTc80nUp&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fTH%2fen-us%2fUSD%2fflot%2f1%2f13554.12195.2017-02-27%2fair%2fairli%2fflights%3fitinerary%3dflight%7c-32741%7c2581%7c13554%7c2017-02-27T10%3a40%7c16626%7c2017-02-27T17%3a25%3bflight%7c-32741%7c274%7c16626%7c2017-02-27T21%3a10%7c12195%7c2017-02-28T10%3a20%26carriers%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d511.90%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3d3851f625-db07-497a-ae2d-14e7cafdf094%26deeplink_ids%3dap-northeast-1.prod_50e6c62906da54a33e43169d0d6ba668%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-12-11T17%3a36%3a41",
+"title": 512
+},
+{
+"type": "web_url",
+"url": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=jzj5DawL5zJyT%2bnfeP9GJWfImnVvZd7vh0AJSObmdOp8YP07VbGmhzc%2bVTc80nUp&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fTH%2fen-us%2fUSD%2fflot%2f1%2f13554.12195.2017-02-27%2fair%2fairli%2fflights%3fitinerary%3dflight%7c-32741%7c2581%7c13554%7c2017-02-27T10%3a40%7c16626%7c2017-02-27T17%3a25%3bflight%7c-32741%7c274%7c16626%7c2017-02-27T21%3a10%7c12195%7c2017-02-28T10%3a20%26carriers%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d511.90%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3d3851f625-db07-497a-ae2d-14e7cafdf094%26deeplink_ids%3dap-northeast-1.prod_50e6c62906da54a33e43169d0d6ba668%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-12-11T17%3a36%3a41",
+"title": "Book Now"
+}
+]
+},
+{
+"title": "San Francisco International",
+"image_url": "https://nomadlist.com/assets/img/cities/san-diego-ca-united-states-500px.jpg",
+"subtitle": "A Great Place To Visit",
+"buttons": [
+{
+"type": "web_url",
+"url": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=jzj5DawL5zJyT%2bnfeP9GJWfImnVvZd7vh0AJSObmdOp8YP07VbGmhzc%2bVTc80nUp&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fUS%2fen-us%2fUSD%2fairl%2f1%2f13554.16216.2017-02-27%2fair%2fairli%2fflights%3fitinerary%3dflight%7c-32753%7c8332%7c13554%7c2017-02-27T06%3a40%7c11154%7c2017-02-27T08%3a05%3bflight%7c-32753%7c147%7c11154%7c2017-02-27T12%3a30%7c16216%7c2017-02-27T15%3a35%26carriers%3d-32753%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d836.85%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3d382009a4-0a31-4f1a-b283-8408f3ca75ea%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-12-11T17%3a36%3a42",
+"title": 837
+},
+{
+"type": "web_url",
+"url": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=jzj5DawL5zJyT%2bnfeP9GJWfImnVvZd7vh0AJSObmdOp8YP07VbGmhzc%2bVTc80nUp&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fUS%2fen-us%2fUSD%2fairl%2f1%2f13554.16216.2017-02-27%2fair%2fairli%2fflights%3fitinerary%3dflight%7c-32753%7c8332%7c13554%7c2017-02-27T06%3a40%7c11154%7c2017-02-27T08%3a05%3bflight%7c-32753%7c147%7c11154%7c2017-02-27T12%3a30%7c16216%7c2017-02-27T15%3a35%26carriers%3d-32753%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d836.85%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3d382009a4-0a31-4f1a-b283-8408f3ca75ea%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-12-11T17%3a36%3a42",
+"title": "Book Now"
+}
+]
+},
+{
+"title": "Las Vegas Mccarran",
+"image_url": "https://nomadlist.com/assets/img/cities/las-palmas-gran-canaria-spain-500px.jpg",
+"subtitle": "A Great Place To Visit",
+"buttons": [
+{
+"type": "web_url",
+"url": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=jzj5DawL5zJyT%2bnfeP9GJWfImnVvZd7vh0AJSObmdOp8YP07VbGmhzc%2bVTc80nUp&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fUS%2fen-us%2fUSD%2fnorw%2f1%2f13542.13411.2017-02-27%2fair%2fairli%2fflights%3fitinerary%3dflight%7c-32013%7c7107%7c13542%7c2017-02-27T12%3a10%7c13411%7c2017-02-27T15%3a00%26carriers%3d-32013%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d294.10%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3de1328203-68ff-43d6-8c3d-fe3d887dafcb%26deeplink_ids%3dap-northeast-1.prod_6cb86d8fb0a5a087a4a464f428d08a3d%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-12-11T17%3a36%3a43",
+"title": 295
+},
+{
+"type": "web_url",
+"url": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=jzj5DawL5zJyT%2bnfeP9GJWfImnVvZd7vh0AJSObmdOp8YP07VbGmhzc%2bVTc80nUp&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fUS%2fen-us%2fUSD%2fnorw%2f1%2f13542.13411.2017-02-27%2fair%2fairli%2fflights%3fitinerary%3dflight%7c-32013%7c7107%7c13542%7c2017-02-27T12%3a10%7c13411%7c2017-02-27T15%3a00%26carriers%3d-32013%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d294.10%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3de1328203-68ff-43d6-8c3d-fe3d887dafcb%26deeplink_ids%3dap-northeast-1.prod_6cb86d8fb0a5a087a4a464f428d08a3d%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-12-11T17%3a36%3a43",
+"title": "Book Now"
+}
+]
+}
+]
+}
+}
+}
+]
+}

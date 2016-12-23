@@ -1,4 +1,4 @@
-URL For Nomadly=>https://nomadlist.com/api/v2/filter/city?c=2&f1_target=tags&f1_type=pm&f1_value=snow&f2_target=female_friendly&f2_type=gt&f2_min=3&s=nomad_score&o=desc
-Date To Visit=>2017-01-27
-Origin=>NCL-sky
-Budget=>500
+URL For Nomadly=>https://nomadlist.com/api/v2/filter/city?c=2&f1_target=tags&f1_type=pm&f1_value=beach&f2_target=english_speaking&f2_type=gt&f2_min=3&s=nomad_score&o=desc
+Date To Visit=>2017-02-27
+Origin=>BLR-sky
+Budget=>1000

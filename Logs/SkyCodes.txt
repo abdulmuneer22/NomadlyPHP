@@ -1,0 +1,15 @@
+Started The Function getSKYCODE
+
+Place-Name => CNS-sky	Country=>AU-sky
+Place-Name => DPS-sky	Country=>ID-sky
+Place-Name => HBA-sky	Country=>AU-sky
+Place-Name => AVL-sky	Country=>US-sky
+Place-Name => ABQ-sky	Country=>US-sky
+Place-Name => DEN-sky	Country=>US-sky
+Place-Name => BAQ-sky	Country=>CO-sky
+Place-Name => GCM-sky	Country=>KY-sky
+Place-Name => FAT-sky	Country=>US-sky
+Place-Name => GLAS-sky	Country=>UK-sky
+Place-Name => DEN-sky	Country=>US-sky
+Place-Name => JDH-sky	Country=>IN-sky
+Place-Name => BLD-sky	Country=>US-sky

@@ -1,0 +1,99 @@
+{
+"messages": [
+{
+"attachment": {
+"type": "template",
+"payload": {
+"template_type": "generic",
+"elements": [
+{
+"title": "Taipei",
+"image_url": "https://nomadlist.com/assets/img/cities/taipei-taiwan-500px.jpg",
+"subtitle": "A Great Place To Visit",
+"buttons": [
+{
+"type": "web_url",
+"url": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=jzj5DawL5zJyT%2bnfeP9GJWfImnVvZd7vh0AJSObmdOp8YP07VbGmhzc%2bVTc80nUp&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fTW%2fen-us%2fUSD%2fctrp%2f1%2f13554.17075.2017-02-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32444%7c9360%7c13554%7c2017-02-28T11%3a45%7c9451%7c2017-02-28T14%3a05%3bflight%7c-32444%7c9388%7c9451%7c2017-02-28T20%3a50%7c17075%7c2017-03-01T15%3a45%26carriers%3d-32444%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d425.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3d88d3f9ef-7bae-4213-bb6b-8d38ffd56ff2%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-12-11T16%3a48%3a49",
+"title": 425
+},
+{
+"type": "web_url",
+"url": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=jzj5DawL5zJyT%2bnfeP9GJWfImnVvZd7vh0AJSObmdOp8YP07VbGmhzc%2bVTc80nUp&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fTW%2fen-us%2fUSD%2fctrp%2f1%2f13554.17075.2017-02-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32444%7c9360%7c13554%7c2017-02-28T11%3a45%7c9451%7c2017-02-28T14%3a05%3bflight%7c-32444%7c9388%7c9451%7c2017-02-28T20%3a50%7c17075%7c2017-03-01T15%3a45%26carriers%3d-32444%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d425.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3d88d3f9ef-7bae-4213-bb6b-8d38ffd56ff2%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-12-11T16%3a48%3a49",
+"title": "Book Now"
+}
+]
+},
+{
+"title": "Austin-Bergstrom",
+"image_url": "https://nomadlist.com/assets/img/cities/austin-tx-united-states-500px.jpg",
+"subtitle": "A Great Place To Visit",
+"buttons": [
+{
+"type": "web_url",
+"url": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=jzj5DawL5zJyT%2bnfeP9GJWfImnVvZd7vh0AJSObmdOp8YP07VbGmhzc%2bVTc80nUp&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fUS%2fen-us%2fUSD%2fbfus%2f1%2f13554.9629.2017-02-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32733%7c8%7c13554%7c2017-02-28T22%3a30%7c13993%7c2017-03-01T04%3a40%3bflight%7c-32733%7c2686%7c13993%7c2017-03-01T09%3a30%7c9629%7c2017-03-01T11%3a52%26carriers%3d-32733%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d547.81%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3d0e5f8346-7548-491a-9cfb-5393cc3202e4%26deeplink_ids%3dap-northeast-1.prod_c0f4abb3acada644d65be3938e873a27%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-12-11T16%3a20%3a07",
+"title": 548
+},
+{
+"type": "web_url",
+"url": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=jzj5DawL5zJyT%2bnfeP9GJWfImnVvZd7vh0AJSObmdOp8YP07VbGmhzc%2bVTc80nUp&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fUS%2fen-us%2fUSD%2fbfus%2f1%2f13554.9629.2017-02-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32733%7c8%7c13554%7c2017-02-28T22%3a30%7c13993%7c2017-03-01T04%3a40%3bflight%7c-32733%7c2686%7c13993%7c2017-03-01T09%3a30%7c9629%7c2017-03-01T11%3a52%26carriers%3d-32733%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d547.81%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3d0e5f8346-7548-491a-9cfb-5393cc3202e4%26deeplink_ids%3dap-northeast-1.prod_c0f4abb3acada644d65be3938e873a27%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-12-11T16%3a20%3a07",
+"title": "Book Now"
+}
+]
+},
+{
+"title": "Dallas",
+"image_url": "https://nomadlist.com/assets/img/cities/dallas-tx-united-states-500px.jpg",
+"subtitle": "A Great Place To Visit",
+"buttons": [
+{
+"type": "web_url",
+"url": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=jzj5DawL5zJyT%2bnfeP9GJWfImnVvZd7vh0AJSObmdOp8YP07VbGmhzc%2bVTc80nUp&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fUS%2fen-us%2fUSD%2ft2us%2f1%2f13542.10968.2017-01-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31781%7c343%7c13542%7c2017-01-28T16%3a30%7c13577%7c2017-01-28T19%3a10%3bflight%7c-31781%7c209%7c13577%7c2017-01-29T16%3a50%7c12712%7c2017-01-29T20%3a15%3bflight%7c-31781%7c8522%7c11442%7c2017-01-30T17%3a59%7c10968%7c2017-01-30T21%3a08%26carriers%3d-31781%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d427.88%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3d51e3f32c-6dbb-4a5a-baba-4de069e1f7aa%26deeplink_ids%3dap-northeast-1.prod_7d91742ddbc22931795855fbd42cde18%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-12-11T16%3a20%3a07",
+"title": 428
+},
+{
+"type": "web_url",
+"url": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=jzj5DawL5zJyT%2bnfeP9GJWfImnVvZd7vh0AJSObmdOp8YP07VbGmhzc%2bVTc80nUp&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fUS%2fen-us%2fUSD%2ft2us%2f1%2f13542.10968.2017-01-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31781%7c343%7c13542%7c2017-01-28T16%3a30%7c13577%7c2017-01-28T19%3a10%3bflight%7c-31781%7c209%7c13577%7c2017-01-29T16%3a50%7c12712%7c2017-01-29T20%3a15%3bflight%7c-31781%7c8522%7c11442%7c2017-01-30T17%3a59%7c10968%7c2017-01-30T21%3a08%26carriers%3d-31781%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d427.88%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3d51e3f32c-6dbb-4a5a-baba-4de069e1f7aa%26deeplink_ids%3dap-northeast-1.prod_7d91742ddbc22931795855fbd42cde18%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-12-11T16%3a20%3a07",
+"title": "Book Now"
+}
+]
+},
+{
+"title": "Dallas",
+"image_url": "https://nomadlist.com/assets/img/cities/dallas-tx-united-states-500px.jpg",
+"subtitle": "A Great Place To Visit",
+"buttons": [
+{
+"type": "web_url",
+"url": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=jzj5DawL5zJyT%2bnfeP9GJWfImnVvZd7vh0AJSObmdOp8YP07VbGmhzc%2bVTc80nUp&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fUS%2fen-us%2fUSD%2ft2us%2f1%2f13542.10968.2017-01-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31781%7c343%7c13542%7c2017-01-28T16%3a30%7c13577%7c2017-01-28T19%3a10%3bflight%7c-31781%7c209%7c13577%7c2017-01-29T16%3a50%7c12712%7c2017-01-29T20%3a15%3bflight%7c-31781%7c8522%7c11442%7c2017-01-30T17%3a59%7c10968%7c2017-01-30T21%3a08%26carriers%3d-31781%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d427.88%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3d7a58f9a4-52be-4348-bf07-9950e8b91200%26deeplink_ids%3dap-northeast-1.prod_7d91742ddbc22931795855fbd42cde18%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-12-11T16%3a20%3a07",
+"title": 428
+},
+{
+"type": "web_url",
+"url": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=jzj5DawL5zJyT%2bnfeP9GJWfImnVvZd7vh0AJSObmdOp8YP07VbGmhzc%2bVTc80nUp&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fUS%2fen-us%2fUSD%2ft2us%2f1%2f13542.10968.2017-01-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31781%7c343%7c13542%7c2017-01-28T16%3a30%7c13577%7c2017-01-28T19%3a10%3bflight%7c-31781%7c209%7c13577%7c2017-01-29T16%3a50%7c12712%7c2017-01-29T20%3a15%3bflight%7c-31781%7c8522%7c11442%7c2017-01-30T17%3a59%7c10968%7c2017-01-30T21%3a08%26carriers%3d-31781%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d427.88%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3d7a58f9a4-52be-4348-bf07-9950e8b91200%26deeplink_ids%3dap-northeast-1.prod_7d91742ddbc22931795855fbd42cde18%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-12-11T16%3a20%3a07",
+"title": "Book Now"
+}
+]
+},
+{
+"title": "Las Vegas Mccarran",
+"image_url": "https://nomadlist.com/assets/img/cities/las-vegas-nv-united-states-500px.jpg",
+"subtitle": "A Great Place To Visit",
+"buttons": [
+{
+"type": "web_url",
+"url": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=jzj5DawL5zJyT%2bnfeP9GJWfImnVvZd7vh0AJSObmdOp8YP07VbGmhzc%2bVTc80nUp&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fUS%2fen-us%2fUSD%2ffnus%2f1%2f13542.13411.2017-02-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31679%7c4%7c13542%7c2017-02-28T11%3a20%7c18467%7c2017-02-28T14%3a45%3bflight%7c-31679%7c1118%7c18467%7c2017-02-28T20%3a35%7c13411%7c2017-02-28T22%3a31%26carriers%3d-31679%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d488.88%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3da02a714d-cf7e-45ed-9764-f27f7135df40%26deeplink_ids%3dap-northeast-1.prod_0937ca6baaaf87f6c4e977d95b2d3c88%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-12-11T16%3a52%3a33",
+"title": 489
+},
+{
+"type": "web_url",
+"url": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=jzj5DawL5zJyT%2bnfeP9GJWfImnVvZd7vh0AJSObmdOp8YP07VbGmhzc%2bVTc80nUp&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fUS%2fen-us%2fUSD%2ffnus%2f1%2f13542.13411.2017-02-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31679%7c4%7c13542%7c2017-02-28T11%3a20%7c18467%7c2017-02-28T14%3a45%3bflight%7c-31679%7c1118%7c18467%7c2017-02-28T20%3a35%7c13411%7c2017-02-28T22%3a31%26carriers%3d-31679%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d488.88%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3da02a714d-cf7e-45ed-9764-f27f7135df40%26deeplink_ids%3dap-northeast-1.prod_0937ca6baaaf87f6c4e977d95b2d3c88%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-12-11T16%3a52%3a33",
+"title": "Book Now"
+}
+]
+}
+]
+}
+}
+}
+]
+}

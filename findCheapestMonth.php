@@ -1,61 +1,34 @@
 <?php
+
+/*
+Steps
+1. Get City Codes  
+let numberofcities = 15
+        for(city[i]){
+            getPrice from origin to city[i] for jan;
+            getPrice from origin to city[i] for feb;
+            getPrice from origin to city[i] for mar;
+            ....
+            ....
+            ....
+            getPrice from origin to city[i] for Dec;
+            cheapestofcity[i] = pricefromorgtodestforjan
+            if(pricefromorgtodestforjan > pricefromorgtodestforcurrentmonth){
+                cheapestofcity[i] = pricefromorgtodestforcurrentmonth
+            }
+            
+        }
+        
+        return array[]
+2. find Price to those cities for next 12 Months
+3. each time save cheapest to list 
+ 
+
+
+
+
+*/
 require_once 'Unirest-php/src/Unirest.php';
-
-
-
-
-
-function DateToVisit(){
-    
-    switch($_GET["Month"]){
-    
-    case 'NOV -2016':
-        $DateToVisit = "2016-11-27";
-        return $DateToVisit;
-        
-        
-    case 'DEC -2016':
-        $DateToVisit = "2016-12-27";
-        return $DateToVisit;
-        
-    case 'JAN -2017':
-        $DateToVisit = "2017-01-27";
-        return $DateToVisit;
-        
-    case 'FEB -2017':
-        $DateToVisit = "2017-02-27";
-        return $DateToVisit;
-    
-    case 'MAR -2017':
-        $DateToVisit = "2017-03-27";
-        return $DateToVisit;
-        
-    case 'APR -2017':
-        $DateToVisit = "2017-04-27";
-        return $DateToVisit;
-        
-    case 'MAY -2017':
-        $DateToVisit = "2017-05-27";
-        return $DateToVisit;
-    
-    
-    case 'MAY -2017':
-        $DateToVisit = "2017-05-27";
-        return $DateToVisit;
-        
-    case 'JUN -2017':
-        $DateToVisit = "2017-06-27";
-        return $DateToVisit;
-        
-    case 'JUL -2017':
-        $DateToVisit = "2017-07-27";
-        return $DateToVisit;
-    
-    default :
-        $DateToVisit = "2016-12-27";
-        return $DateToVisit;
-}
-}
 
 function GetSKYCODEOrigin(){
     $headers = array('Accept' => 'application/json');
@@ -262,11 +235,15 @@ function getSKYCODE($NomadlistCities){
     }
     
     fclose($myfile);
+    //print_r($skycode);
     return $skycode;
+    
 }
 
-function setPollingURL($skycode,$CityCode,$DateToVisit){
-    //print_r($skycode[0][DestinationNomadCode]);
+function setPollingURL($CheapestList){
+    
+    
+    
     header('Content-type: application/json');
     $PollingURLSkyEndPoint = "http://partners.api.skyscanner.net/apiservices/pricing/v1.0";
     $headers = array('Accept' => 'application/json');
@@ -278,22 +255,27 @@ function setPollingURL($skycode,$CityCode,$DateToVisit){
     
     $limit = 0;
     
-    if(sizeof($skycode) < 10){
-        $limit = sizeof($skycode);
+    if(sizeof($CheapestList) < 15){
+        $limit = sizeof($CheapestList);
     }else{
-        $limit = 10;
+        $limit = 15;
     }
     
     for($i=0 ; $i < $limit ; $i++){
     
+    //print_r($CheapestList[$i]);
+   
+    
+    
+    
     $data = array(
     'apiKey' => 'prtl6749387986743898559646983194',
-    'country' => $skycode[$i]["CountryCode"],
+    'country' => $CheapestList[$i][DestinationCountryCode],
     'currency' => 'USD',
     'locale' => 'en-US',
-    'originplace' => $CityCode,
-    'destinationplace' => $skycode[$i]["CityCode"],
-    'outbounddate' => $DateToVisit,
+    'originplace' => $CheapestList[$i][Origin],
+    'destinationplace' => $CheapestList[$i][DestinationCode],
+    'outbounddate' => $CheapestList[$i][DateToVisit],
     'adults' => '1'
     );
     
@@ -314,13 +296,14 @@ function setPollingURL($skycode,$CityCode,$DateToVisit){
     fwrite($myfile,"\n*********************************************\n");
     
     $polling = array(
-                "DestinationName" => $skycode[$i]["CityName"],
-                "nomadimageurl" => $skycode[$i]["nomadimageurl"],
-                "DestinationCityCode"=>$skycode[$i]["CityCode"],
-                "DestinationCountryCode"=>$skycode[$i]["CountryCode"],
-                "OriginCityCode" => $CityCode,
+                "DestinationName" => $CheapestList[$i][DestinationName],
+                "nomadimageurl" => $CheapestList[$i][ImageURL],
+                "DestinationCityCode"=>$CheapestList[$i][DestinationCode],
+                "DestinationCountryCode"=>$CheapestList[$i][DestinationCountryCode],
+                "OriginCityCode" => $CheapestList[$i][Origin],
                 "PollingURL"=>$response->headers["Location"],
-                "DestinationNomadCode"=>$skycode[$i][DestinationNomadCode]
+                "DestinationNomadCode"=>$CheapestList[$i][DestinationNomadCode]
+                
                 
                 );
     
@@ -332,12 +315,14 @@ function setPollingURL($skycode,$CityCode,$DateToVisit){
 }
 
 fclose($myfile);
+//print_r($PollingURLWithCityCodes);
 return $PollingURLWithCityCodes;
 }
 
 function CalculatePrice($Budget,$PollingURLWithCityCodes){
     $apikey = "?apiKey=prtl6749387986743898559646983194";
-    //print_r($PollingURLWithCityCodes);
+    
+    
     $j = 0;
     
     for($i=0; $i < sizeof($PollingURLWithCityCodes) ; $i++){
@@ -373,6 +358,110 @@ function CalculatePrice($Budget,$PollingURLWithCityCodes){
     
 }
 
+function getCheapest(){
+    //Step 1 - Get Origin City Sky Code    
+    //$CityCode = "LOND-Sky";
+    $CityCode = GetSKYCODEOrigin();
+    
+    //Step 2 - Get User Maximum Budget
+    //$Budget = 1000;
+    $Budget = getBudget();
+    
+    // Step 3 - Get URL Parameters for passing to nomadly
+    //$Url = "https://nomadlist.com/api/v2/filter/city?c=2&f1_target=internet_speed&f1_type=gt&f1_min=15&f2_target=schengen&f2_type=em&f2_value=no&s=nomad_score&o=desc";
+    $Url = getUrlParams();
+    
+    //Step 4 - Get List Of Cities as per URL in Step 4
+    $NomadlistCities = getNomadCities($Url);
+    
+    //Step 5 - Convert those To SkyScanner Understandable Code
+    $skycode = getSKYCODE($NomadlistCities);
+    
+    // Step 6 - For Each Origin-Destination Combinations Find Prices For Each Month and Find Month Which Gives Cheapest Price
+    
+    $NumberOfCities = sizeof($skycode);
+    //$NumberOfCities = 1;
+    $CheapestList = array();
+    
+    for($i = 0 ; $i < $NumberOfCities ; $i++){
+    
+    $DestinationCode = $skycode[$i][CityCode];
+    $OriginCode = $CityCode;
+    $DestinationNomadCode = $skycode[$i][DestinationNomadCode];
+    //Continue from here 
+    
+    //print_r($skycode[$i][CityCode]);
+    $DestinationCode = $skycode[$i][CityCode];
+    $ImageURL = $skycode[$i][nomadimageurl];
+    $DestinationCountryCode = $skycode[$i][CountryCode];
+    $DestinationCityName = $skycode[$i][CityName];
+    
+    
+    //echo("<p>$CityCode  $DestinationCode</p>");
+    
+    //echo($DestinationCode);
+    
+    $url = "http://partners.api.skyscanner.net/apiservices/browsedates/v1.0/US/USD/en-US/".$OriginCode."/".$DestinationCode."/anytime?apiKey=prtl6749387986743898559646983194";
+    
+    $response = Unirest\Request::get($url);
+    
+    $Price = $response->body->Dates->OutboundDates;
+    
+    
+    
+    //let cheapest price as first price
+    $CheapestPrice = $Price[0]->Price;
+    for($j = 0 ; $j <  sizeof($Price) ; $j++){
+      
+      if($CheapestPrice > $Price[$j]->Price){
+          $CheapestPrice = $Price[$j]->Price;
+          $date = $Price[$j]->PartialDate; 
+      }
+      
+      
+      
+      
+    }
+    
+    // echo("Price=>".$CheapestPrice);
+    // print_r("Date>".$date);
+    
+    if($CheapestPrice != null){
+    $Result = array(
+                    "DestinationCountryCode" => $DestinationCountryCode,
+                    "ImageURL" => $ImageURL,
+                    "DestinationName" => $DestinationCityName,
+                    "Price" => $CheapestPrice,
+                    "DestinationCode" => $DestinationCode,
+                    "Origin" => $OriginCode,
+                    "DateToVisit" => $date."-28",
+                    "DestinationNomadCode"=>$DestinationNomadCode
+    );    
+    }
+    
+      
+        
+        //print_r($Result);
+        array_push($CheapestList,$Result);
+    
+    
+    
+    
+    
+    
+    
+        
+        
+    }
+    // header('Content-type: application/json');
+    // echo json_encode($CheapestList);
+    //print_r($CheapestList);
+    
+    //print_r($CheapestList);
+    return $CheapestList;
+    
+}   
+
 function getVideoURL($DestinationName){
         $Data = file_get_contents('Videos.json');
         $Data = json_decode($Data);
@@ -394,6 +483,7 @@ function getVideoURL($DestinationName){
         
         return $videolink;
 }
+
 function formatOutput($CalculatedPrice){
     
     //print_r($CalculatedPrice);
@@ -438,10 +528,19 @@ function formatOutput($CalculatedPrice){
     
     
     
+    $limit = 0;
+        if(sizeof($CalculatedPrice) > 5){
+            $limit = 5;
+        }
+        else{
+            $limit = sizeof($CalculatedPrice);
+        }
     
-    for($i=0;$i < sizeof($CalculatedPrice) ; $i++){
+    for($i=0;$i < $limit ; $i++){
         $DestinationNomadCode = $CalculatedPrice[$i]["DestinationNomadCode"];
         $videolink = getVideoURL($DestinationNomadCode);
+        
+        
         //print_r($CalculatedPrice[$i]["DestinationName"]);
         if($CalculatedPrice[$i]["DestinationName"] != null){
            
@@ -482,38 +581,16 @@ function formatOutput($CalculatedPrice){
 }
 
 
+$CheapestList = getCheapest();
+//print_r($CheapestList);
+//find price and generate links for those cheapest
+$PollingURLWithCityCodes = setPollingURL($CheapestList);
 
-$DateToVisit = DateToVisit();
-//$DateToVisit = "2016-12-27";
-
-$CityCode = GetSKYCODEOrigin();
-//$CityCode = "MIAA-sky";
-
+//Calculate Those Price
 $Budget = getBudget();
-//$Budget = "1000";
-
-$Url = getUrlParams();
-
-
-$myfile = fopen("testfile.txt", "w");
-fwrite($myfile,"URL For Nomadly=>".$Url."\n"."Date To Visit=>".$DateToVisit."\n"."Origin=>".$CityCode."\n");
-fwrite($myfile,"Budget=>".$Budget."\n");
-fclose($myfile);
-
-$Url = "https://nomadlist.com/api/v2/filter/city?c=2&f1_target=internet_speed&f1_type=gt&f1_min=15&f2_target=schengen&f2_type=em&f2_value=no&s=nomad_score&o=desc";
-$NomadlistCities = getNomadCities($Url);
-
-
-$skycode = getSKYCODE($NomadlistCities);
-
-$PollingURLWithCityCodes = setPollingURL($skycode,$CityCode,$DateToVisit);
-
-// Calculate Price and Format Output pending
+//$Budget = 1000;
 $CalculatedPrice = CalculatePrice($Budget,$PollingURLWithCityCodes);
 
-//Format Output
 formatOutput($CalculatedPrice);
-
-
-
+//print_r($CalculatedPrice);
 ?>
