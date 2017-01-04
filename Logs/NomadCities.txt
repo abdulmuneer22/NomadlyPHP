@@ -1,15 +1,15 @@
-Started The Function getNomadCitiescairns-australia
-denpasar-bali-indonesia
-hobart-australia
-asheville-nc-united-states
-dongguan-china
-albuquerque-nm-united-states
-denver-co-united-states
-fairfax-va-united-states
-barranquilla-colombia
-grand-rapids-mi-united-states
-fresno-ca-united-states
-glasgow-united-kingdom
-colorado-springs-co-united-states
-jodhpur-india
-boulder-co-united-states
+Started The Function getNomadCitieschiang-mai-thailand
+miami-fl-united-states
+austin-tx-united-states
+houston-tx-united-states
+san-diego-ca-united-states
+tampa-fl-united-states
+gainesville-fl-united-states
+atlanta-ga-united-states
+tokyo-japan
+orlando-fl-united-states
+phuket-thailand
+dallas-tx-united-states
+ko-samui-thailand
+panama-city-panama
+montevideo-uruguay
